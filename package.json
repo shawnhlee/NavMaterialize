@@ -1,0 +1,19 @@
+{
+  "name": "navmaterialize",
+  "version": "1.0.0",
+  "description": "Practive with CSS Materialize",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shawnhlee/NavMaterialize.git"
+  },
+  "author": "Shawn Lee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shawnhlee/NavMaterialize/issues"
+  },
+  "homepage": "https://github.com/shawnhlee/NavMaterialize#readme"
+}
