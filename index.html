@@ -20,8 +20,8 @@
     <title>Photo Ninja</title>
     <style>
       header {
-        background: url(img/S2.jpeg);
-        background-size: cover;
+        background: url(img/D3.jpeg);
+        background-size: top;
         background-position: center;
         min-height: 900px;
       }
@@ -55,20 +55,47 @@
             <i class="material-icons">menu</i>
           </a>
           <ul class="right hide-on-med-and-down">
-            <li><a href="#">Photo's</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#photos">Photo's</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a
+                href=""
+                class="tooltipped btn-floating btn-small indigo darken-4"
+                data-tooltip="Instagram"
+              >
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="tooltipped btn-floating btn-small indigo darken-4"
+                data-tooltip="Facebook"
+              >
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="tooltipped btn-floating btn-small indigo darken-4"
+                data-tooltip="Twiter"
+              >
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
           </ul>
           <ul class="sidenav grey lighten-2" id="mobile-menu">
-            <li><a href="#">Photo's</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#photos">Photo's</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
     </header>
     <!--Photo & Grid-->
-    <section class="container section" id="photo's">
+    <section class="container section scrollspy" id="photos">
       <div class="row">
         <div class="col s12 l4">
           <img src="img/M4.jpeg" alt="" class="responsive-img materialboxed" />
@@ -95,7 +122,7 @@
           />
         </div>
         <div class="col s12 l6 pull-l4 right-align">
-          <h2 class="indigo-text text-darken-4">Portraits</h2>
+          <h2 class="indigo-text text-darken-4">Hobby</h2>
           <p>
             "issues arising from the introduction of new technology" synonyms:
             institution, establishment, initiation, launch, inauguration,
@@ -112,7 +139,7 @@
           <img src="img/S9.jpeg" alt="" class="responsive-img materialboxed" />
         </div>
         <div class="col s12 l6  offset-l1">
-          <h2 class="indigo-text text-darken-4">Portraits</h2>
+          <h2 class="indigo-text text-darken-4">Travel</h2>
           <p>
             "issues arising from the introduction of new technology" synonyms:
             institution, establishment, initiation, launch, inauguration,
@@ -131,7 +158,7 @@
       </div>
     </div>
     <!--Services / tabs-->
-    <section class="container section" id="services">
+    <section class="container section scrollspy" id="services">
       <div class="row">
         <div class="col s12 l4">
           <h2 class="indigo-text text-darken-4">
@@ -220,7 +247,110 @@
 
     <!--Parallax-->
     <!--Contact Form-->
+    <section class="section container scrollspy" id="contact">
+      <div class="row">
+        <div class="col s12 l5">
+          <h2 class="indigo-text text-darken-4">Get in touch</h2>
+          <p>
+            For more robust implementations to detect whether a scroll bar is
+            visible or not, see “Crossbrowser JavaScript Scrollbar Detection” by
+            Tyler Cipriani or “Detect If a Page Has a Vertical Scrollbar” on
+            Stack Overflow if you prefer jQuery.
+          </p>
+          <p>
+            For more robust implementations to detect whether a scroll bar is
+            visible or not, see “Crossbrowser JavaScript Scrollbar Detection” by
+            Tyler Cipriani or “Detect If a Page Has a Vertical Scrollbar” on
+            Stack Overflow if you prefer jQuery.
+          </p>
+          <p>
+            For more robust implementations to detect whether a scroll bar is
+            visible or not, see “Crossbrowser JavaScript Scrollbar Detection” by
+            Tyler Cipriani or “Detect If a Page Has a Vertical Scrollbar” on
+            Stack Overflow if you prefer jQuery.
+          </p>
+        </div>
+        <div class="col s12 l5 offset-l2">
+          <form action="">
+            <div class="input-field">
+              <i class="material-icons prefix">email</i>
+              <input type"email" id="email">
+              <label for="email">Your Email</label>
+            </div>
+            <div class="input-field">
+              <i class="material-icons prefix">message</i>
+              <textarea
+                name=""
+                id="message"
+                class="materialize-textarea"
+                cols="30"
+                rows="10"
+              ></textarea>
+              <label for="message">Your message</label>
+            </div>
+            <div class="input-field">
+              <input type="text" id="date" class="datepicker" />
+              <label for="date">Choose date you need me for ...</label>
+            </div>
+            <div class="input-field">
+              <p>Services required...</p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Photography</span>
+                </label>
+              </p>
+              <p>
+                <label>
+                  <input type="checkbox" />
+                  <span>Editing</span>
+                </label>
+              </p>
+            </div>
+            <div class="input-field center">
+              <button class="btn">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
     <!--footer-->
+    <footer class="page-footer grey darken-3">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 l6">
+            <h5>About me</h5>
+            <p>
+              In an essay, article, or book, an introduction is a beginning
+              section which states the purpose and goals of the following
+              writing. This is generally followed by the body and conclusion.
+              The introduction typically describes the scope of the document and
+              gives the brief explanation or summary of the document.
+            </p>
+            <p>
+              In an essay, article, or book, an introduction is a beginning
+              section which states the purpose and goals of the following
+              writing. This is generally followed by the body and conclusion.
+              The introduction typically describes the scope of the document and
+              gives the brief explanation or summary of the document.
+            </p>
+          </div>
+          <div class="col s12 l4 offset-l2">
+            <h5>Connect</h5>
+            <ul>
+              <li><a href="" class="grey-text text-lighten-3">Facebook</a></li>
+              <li><a href="" class="grey-text text-lighten-3">Twitter</a></li>
+              <li><a href="" class="grey-text text-lighten-3">LinkedIn</a></li>
+              <li><a href="" class="grey-text text-lighten-3">Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright grey darken-4">
+        <div class="container center-align">&copy;2019 Shawn Lee</div>
+      </div>
+    </footer>
+
     <script src="https://kit.fontawesome.com/a5ad4543bc.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
@@ -234,6 +364,11 @@
         $(".materialboxed").materialbox();
         $(".parallax").parallax();
         $(".tabs").tabs();
+        $(".datepicker").datepicker({
+          disableWeekends: true
+        });
+        $(".tooltipped").tooltip();
+        $(".scrollspy").scrollSpy();
       });
     </script>
   </body>
